@@ -42,7 +42,19 @@ Detailed study group definitions and limitations are in [`docs/data_processing.m
 
 Generated tables, figures and intermediate analysis objects are written under `results/`. The scripts prepare the underlying statistical outputs and panels, not the final journal graphic assembly. Without the controlled-access input datasets, numeric findings cannot be independently reproduced from the public archive alone. The archive has been statically reviewed but not run end-to-end with source data.
 
-## Citation and rights
 
-Intended resource type for Zenodo: **Software**. Before publication, the rights holder must approve the license and creator metadata and add a version number and Zenodo DOI. A license file is intentionally not invented. Cite the deposited release DOI once available.
-# HelloWorld
+## Versioning and archival
+
+This repository is maintained on GitHub. Official releases are archived on Zenodo, providing a persistent, version-specific Digital Object Identifier (DOI) for each archived release.
+
+The GitHub repository contains the latest maintained code, whereas Zenodo preserves fixed versions for reproducibility and citation.
+
+## Citation
+
+When using this code in research, please cite the Zenodo DOI corresponding to the specific release used.
+
+The DOI and recommended citation will be provided after the first official release.
+
+## License
+
+License information will be provided upon confirmation of the applicable institutional and author permissions.

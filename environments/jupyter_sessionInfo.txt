@@ -1,0 +1,70 @@
+R version 4.4.2 (2024-10-31)
+Platform: x86_64-conda-linux-gnu
+Running under: Ubuntu 24.04.1 LTS
+
+Matrix products: default
+BLAS/LAPACK: ${CONDA_ENV_PREFIX}/lib/libopenblasp-r0.3.29.so;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=zh_CN.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=zh_CN.UTF-8        LC_COLLATE=zh_CN.UTF-8    
+ [5] LC_MONETARY=zh_CN.UTF-8    LC_MESSAGES=zh_CN.UTF-8   
+ [7] LC_PAPER=zh_CN.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=zh_CN.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] parallel  grid      stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] doParallel_1.0.17    iterators_1.0.14     foreach_1.5.2       
+ [4] boot_1.3-32          shapviz_0.10.3       DMwR_0.4.1          
+ [7] multiROC_1.1.1       Mime1_0.0.0.9000     caret_7.0-1         
+[10] lattice_0.22-7       xgboost_3.2.0.1      missForest_1.5      
+[13] mice_3.17.0          randomForest_4.7-1.2 repr_1.1.7          
+[16] MASS_7.3-65          glmnet_4.1-8         emmeans_1.11.0      
+[19] ordinal_2023.12-4.1  lmerTest_3.1-3       broom.mixed_0.2.9.6 
+[22] lme4_1.1-37          Matrix_1.7-3         nortest_1.0-4       
+[25] patchwork_1.3.2      rstatix_0.7.2        ggpubr_0.6.0        
+[28] lubridate_1.9.4      forcats_1.0.0        stringr_1.5.1       
+[31] dplyr_1.1.4          purrr_1.0.4          readr_2.1.5         
+[34] tidyr_1.3.1          tibble_3.2.1         ggplot2_3.5.2       
+[37] tidyverse_2.0.0      jsonlite_2.0.0       formatR_1.14        
+
+loaded via a namespace (and not attached):
+ [1] shape_1.4.6.1        magrittr_2.0.3       TH.data_1.1-3       
+ [4] estimability_1.5.1   jomo_2.7-6           farver_2.1.2        
+ [7] nloptr_2.2.1         vctrs_0.6.5          ROCR_1.0-12         
+[10] minqa_1.2.8          base64enc_0.1-3      htmltools_0.5.8.1   
+[13] itertools_0.1-3      curl_6.2.2           broom_1.0.8         
+[16] Formula_1.2-5        pROC_1.18.5          TTR_0.24.4          
+[19] mitml_0.4-5          parallelly_1.43.0    plyr_1.8.9          
+[22] sandwich_3.1-1       zoo_1.8-14           uuid_1.2-1          
+[25] lifecycle_1.0.4      pkgconfig_2.0.3      R6_2.6.1            
+[28] fastmap_1.2.0        rbibutils_2.3        future_1.40.0       
+[31] digest_0.6.37        numDeriv_2016.8-1.1  colorspace_2.1-1    
+[34] furrr_0.3.1          timechange_0.3.0     abind_1.4-8         
+[37] compiler_4.4.2       rngtools_1.5.2       withr_3.0.2         
+[40] backports_1.5.0      carData_3.0-5        ggsignif_0.6.4      
+[43] pan_1.9              lava_1.8.1           ucminf_1.2.2        
+[46] ModelMetrics_1.2.2.2 tools_4.4.2          quantmod_0.4.27     
+[49] future.apply_1.11.3  nnet_7.3-20          glue_1.8.0          
+[52] nlme_3.1-168         pbdZMQ_0.3-14        reshape2_1.4.4      
+[55] generics_0.1.3       recipes_1.3.0        gtable_0.3.6        
+[58] tzdb_0.5.0           class_7.3-23         data.table_1.17.0   
+[61] hms_1.1.3            car_3.1-3            pillar_1.10.2       
+[64] IRdisplay_1.1        splines_4.4.2        survival_3.8-3      
+[67] tidyselect_1.2.1     reformulas_0.4.0     stats4_4.4.2        
+[70] hardhat_1.4.1        timeDate_4041.110    stringi_1.8.7       
+[73] evaluate_1.0.3       codetools_0.2-20     cli_3.6.4           
+[76] IRkernel_1.3.2       rpart_4.1.24         xtable_1.8-4        
+[79] Rdpack_2.6.4         munsell_0.5.1        Rcpp_1.0.14         
+[82] globals_0.17.0       coda_0.19-4.1        gower_1.0.2         
+[85] doRNG_1.8.6.2        listenv_0.9.1        mvtnorm_1.3-3       
+[88] ipred_0.9-15         scales_1.3.0         xts_0.14.1          
+[91] prodlim_2024.06.25   crayon_1.5.3         rlang_1.1.6         
+[94] multcomp_1.4-28     
