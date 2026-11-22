@@ -1,0 +1,12 @@
+# Confidential, patient-level, or derived study data
+data/**/*.csv
+data/**/*.rds
+data/**/*.xlsx
+results/**
+!results/.gitkeep
+.RData
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+*.Rproj.user
